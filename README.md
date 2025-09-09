@@ -11,6 +11,8 @@ It is relevant for large companies when updating Bitrix24 and the first implemen
 
 If the module is installed incorrectly, you can manually clean it (as of 01.09.2025, there are no module uninstall actions inside the 25th version of Bitrix24). To do this, delete the humanresources line from b_module; delete the entries from b_module_to_module and b_agent in which the TO_CLASS field starts with the corresponding Bitrix\HumanResources class.\ 
 
+All HR's tables remove too - b_hr_*
+
 After stripping, expose the module again through the installation of modules. 
 
 A file does the same thing. InstallHR.php
@@ -27,6 +29,8 @@ A file does the same thing. InstallHR.php
 2.	InstallHR.php 
 
 Если модуль некорректно установился можно произвести его ручную зачистку (на 01.09.2025 внутри 25-ой версии Bitrix24 отсутствуют действия деинсталляции модуля). Для этого нужно: удалить строку humanresources из b_module; удалить записи из b_module_to_module  и b_agent в которых поле TO_CLASS начинается с соответствующего класса Bitrix\HumanResources\ 
+
+Так же удаляются все таблицы модуля b_hr_*
 
 После зачистки выставить модуль повторно через установку модулей. 
 

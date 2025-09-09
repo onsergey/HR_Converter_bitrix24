@@ -27,6 +27,9 @@ $result = $DB->query($zapr);
 $zapr = "delete FROM 'b_agent' where NAME like '%uman%' and NAME like '%esources%'";
 $result = $DB->query($zapr);
 
+$zapr = "DROP TABLE IF EXISTS b_hr_access_permission, b_hr_access_role, b_hr_access_role_relation, b_hr_hcmlink_company, b_hr_hcmlink_employee, b_hr_hcmlink_field, b_hr_hcmlink_field_value, b_hr_hcmlink_job, b_hr_hcmlink_person, b_hr_hcmlink_person_index, b_hr_log, b_hr_structure, b_hr_structure_node, b_hr_structure_node_backward_access_code, b_hr_structure_node_member, b_hr_structure_node_member_role, b_hr_structure_node_path, b_hr_structure_node_relation, b_hr_structure_node_role, b_hr_structure_node_settings, b_hr_structure_role";
+$result = $DB->query($zapr);
+
 //Step 2: Install HR module from tables
 include $_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/humanresources/install/index.php";
 $a=new HumanResources();
