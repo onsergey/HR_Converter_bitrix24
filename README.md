@@ -1,10 +1,14 @@
 # HR_Converter_bitrix24
-#// 
-#// By using this repository with open PHP code, the author disclaims responsibility for any consequences of its use!
-#// Помощь с новым модулем Bitrix24 humanresources для его переустановки и конвертирования структуры компании в новый модуль.
-#// Используя данный репозиторий с открытым PHP-кодом автор снимает с себя ответственность за какие-либо последствия его использования
-#//
-#// Файлы тестировались на 24/25-ой версиях CRM Bitrix24 (business ed.) с базой даных на MySQL
+ 
+By using this repository with open PHP code, the author disclaims responsibility for any consequences of its use!
+
+Помощь с новым модулем Bitrix24 humanresources для его переустановки и конвертирования структуры компании в новый модуль.
+
+Используя данный репозиторий с открытым PHP-кодом автор снимает с себя ответственность за какие-либо последствия его использования
+
+Файлы тестировались на 24/25-ой версиях CRM Bitrix24 (business ed.) с базой даных на MySQL
+
+#////////////////////////////////////////
 
 1.	ConverterHR.php 
 
