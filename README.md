@@ -1,4 +1,5 @@
 # HR_Converter_bitrix24
+# Помощь с новым модулем Bitrix24 humanresources для его переустановки и конвертирования структуры компании в новый модуль.
 
 1.	ConverterHR.php 
 
@@ -34,8 +35,6 @@ A file does the same thing. InstallHR.php
 #////////////////////////////////////////
 
 # By using this repository with open PHP code, the author disclaims responsibility for any consequences of its use!
-
-# Помощь с новым модулем Bitrix24 humanresources для его переустановки и конвертирования структуры компании в новый модуль.
 
 # Используя данный репозиторий с открытым PHP-кодом автор снимает с себя ответственность за какие-либо последствия его использования
 
